@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Java-Learn/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/Java-Learn.iml" filepath="$PROJECT_DIR$/Java-Learn/Java-Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Learn/StringTypes/StringTypes.iml" filepath="$PROJECT_DIR$/Java-Learn/StringTypes/StringTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/Variables/Variables.iml" filepath="$PROJECT_DIR$/Java-Learn/Variables/Variables.iml" />
     </modules>
   </component>
