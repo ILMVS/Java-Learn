@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/Operators/Operators.iml" filepath="$PROJECT_DIR$/Java-Learn/Operators/Operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/StringTypes/StringTypes.iml" filepath="$PROJECT_DIR$/Java-Learn/StringTypes/StringTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/Variables/Variables.iml" filepath="$PROJECT_DIR$/Java-Learn/Variables/Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Learn/Wrappers/Wrappers.iml" filepath="$PROJECT_DIR$/Java-Learn/Wrappers/Wrappers.iml" />
     </modules>
   </component>
 </project>
