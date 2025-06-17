@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-Learn/ArrayMatrix/Arraymatrix.iml" filepath="$PROJECT_DIR$/Java-Learn/ArrayMatrix/Arraymatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Learn/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Java-Learn/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Learn/CLI/CLI.iml" filepath="$PROJECT_DIR$/Java-Learn/CLI/CLI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/DateNCalendar/DateNCalendar.iml" filepath="$PROJECT_DIR$/Java-Learn/DateNCalendar/DateNCalendar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/FlowStructures/FlowStructures.iml" filepath="$PROJECT_DIR$/Java-Learn/FlowStructures/FlowStructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Learn/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Java-Learn/HelloWorld/HelloWorld.iml" />
