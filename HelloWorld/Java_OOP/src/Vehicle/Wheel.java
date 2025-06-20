@@ -1,3 +1,5 @@
+package Vehicle;
+
 public class Wheel {
     private String brand;
     private int size;

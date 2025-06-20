@@ -1,3 +1,5 @@
+package Vehicle;
+
 public enum EngineType {
     DIESEL,
     GASOLINE,

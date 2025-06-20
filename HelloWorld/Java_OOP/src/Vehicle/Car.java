@@ -1,3 +1,7 @@
+package Vehicle;
+import Common.Color;
+import Person.Person;
+
 //pojo plain old java object
 public class Car {
     // Attributes
@@ -39,7 +43,7 @@ public class Car {
     }
 
     //the constructor is a special method to allow initialization of the object
-    public Car(String brand, String model, Engine engine, Color color, FuelTank fuelTank,CarType carType) {
+    public Car(String brand, String model, Engine engine, Color color, FuelTank fuelTank, CarType carType) {
         this.brand = brand;
         this.model = model;
         this.engine = engine;
@@ -61,8 +65,8 @@ public class Car {
                 "Displacement: " + this.engine.getDisplacement() + "\n" +
                 "Default color "+ defaultColor + "\n" +
                 "Fuel Tank: " + this.fuelTank.getCapacity() + " \n" +
-                "Car Type: " + this.carType.getTypeName() + "\n" +
-                "Color: " + this.color.getColorName();
+                "Vehicle.Car Type: " + this.carType.getTypeName() + "\n" +
+                "Common.Color: " + this.color.getColorName();
     }
 
     public String accelerate(int rpm) {
@@ -88,7 +92,7 @@ public class Car {
         return (distance * 10) / (this.fuelTank.getCapacity() * (gasPercentage / 100.0f));
     }
 
-    //Overriding equals method to compare Car objects based on their attributes
+    //Overriding equals method to compare Vehicle.Car objects based on their attributes
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
@@ -105,7 +109,7 @@ public class Car {
 
     @Override
     public  String toString() {
-        return "Car{" +
+        return "Vehicle.Car{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'';
     }

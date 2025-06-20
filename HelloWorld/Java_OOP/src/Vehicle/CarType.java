@@ -1,3 +1,5 @@
+package Vehicle;
+
 public enum CarType {
     SEDAN("Sedan",5,"A sedan is a passenger car in a three-box configuration with separate compartments for engine, passenger, and cargo."),
     SUV("SUV",5,"An SUV, or sport utility vehicle, is a versatile vehicle that combines elements of road-going passenger cars with off-road vehicles."),
