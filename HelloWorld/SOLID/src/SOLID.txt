@@ -1,0 +1,52 @@
+
+SOLID
+
+********** Single Responsibility Principle (SRP) **********
+A class should have only one reason to change, meaning it should only have one job or responsibility.
+This principle helps in reducing the complexity of the code and makes it easier to maintain.
+
+Problem example:
+Could be a class that handles user authentication or saving user data in Database,
+
+Solution:
+Could be to separate these responsibilities into different classes, such as UserAuthenticator and UserRepository.
+
+********** Open/Closed Principle (OCP) **********
+Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+This means that the behavior of a module can be extended without modifying its source code,
+which helps in maintaining existing functionality while adding new features.
+
+Problem example:
+Could be a class that calculates the area of different shapes,
+
+Solution:
+Could be to create an abstract class Shape with a method calculateArea() and then create subclasses like Circle, Rectangle, etc. that implement this method.
+
+********** Liskov Substitution Principle (LSP) **********
+Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+This principle ensures that a subclass can stand in for its superclass without altering the desirable properties of the program.
+
+Problem example:
+Could be a class hierarchy where a subclass does not behave as expected when used in place of its superclass,
+Solution:
+Could be to ensure that the subclass adheres to the contract defined by the superclass, meaning it should implement all methods and properties correctly.
+
+********** Interface Segregation Principle (ISP) **********
+Clients should not be forced to depend on interfaces they do not use.
+This principle encourages the creation of smaller, more specific interfaces rather than a large, general-purpose interface.
+
+problem example:
+Could be a class that implements a large interface with many methods, some of which are not relevant to the class,
+Solution:
+Could be to break down the large interface into smaller, more focused interfaces that only include the methods relevant to the class.
+
+********** Dependency Inversion Principle (DIP) **********
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Abstractions should not depend on details. Details should depend on abstractions.
+This principle promotes the decoupling of software modules, allowing for more flexible and maintainable code.
+
+Problem example:
+Could be a class that directly depends on a specific implementation of a service,
+Solution:
+Could be to introduce an interface for the service and have the class depend on that interface instead of the concrete implementation.
+
